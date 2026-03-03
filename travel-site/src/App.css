@@ -1,0 +1,6 @@
+/* App.css is essentially empty now, as we use Tailwind in index.css */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
