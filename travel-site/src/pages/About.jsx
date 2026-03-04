@@ -4,7 +4,7 @@ import heroBg from "../assets/images/hero-bg.avif";
 
 export default function About() {
     return (
-        <div className="bg-[#0f172a] min-h-screen text-white">
+        <div className="select-none bg-[#0f172a] min-h-screen text-white">
             <div
                 className="w-full min-h-[350px] md:h-[400px] bg-cover bg-center bg-fixed relative flex flex-col items-center justify-center pt-32 md:pt-36 pb-10"
                 style={{

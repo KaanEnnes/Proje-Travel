@@ -15,7 +15,7 @@ import Yunanistan from "../assets/images/Yunanistan.jpg";
 
 function Destinations() {
   return (
-    <div className="bg-[#0f172a] min-h-screen font-['Outfit',_sans-serif]">
+    <div className="select-none bg-[#0f172a] min-h-screen font-['Outfit',_sans-serif]">
 
       <div
         className="w-full h-[500px] bg-cover bg-center bg-fixed relative flex flex-col items-center justify-center pt-24"
