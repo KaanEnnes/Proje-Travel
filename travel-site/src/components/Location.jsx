@@ -4,10 +4,8 @@ import { useState } from 'react'
 export default function Location() {
     const [date, setDate] = useState('')
     return (
-        <div className="flex justify-center w-full px-4 relative z-20">
+        <div className="flex justify-center w-full px-4 z-20">
             <div className="w-full max-w-6xl bg-white/10 backdrop-blur-[24px] border border-white/20 rounded-[40px] p-4 lg:p-6 flex flex-col md:flex-row items-center gap-4 shadow-2xl">
-
-
                 <div className="flex-1 flex items-start gap-4 w-full md:w-auto px-6 py-2">
                     <FontAwesomeIcon icon={faLocationDot} className="text-white text-xl mt-1.5" />
                     <div className="flex flex-col flex-1">
@@ -26,7 +24,7 @@ export default function Location() {
 
                 <div className="flex-1 flex items-start gap-4 w-full md:w-auto px-6 py-2">
                     <FontAwesomeIcon icon={faCalendarDays} className="text-white text-xl mt-1.5" />
-                    <div className="flex flex-col flex-1 relative">
+                    <div className="flex flex-col flex-1 ">
                         <h2 className="text-white font-bold text-sm text-start">Ne Zaman?</h2>
                         <input
                             type="date"

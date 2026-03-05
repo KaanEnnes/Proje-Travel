@@ -10,7 +10,7 @@ export default function Topbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className=" fixed md:top-6 pt-5 left-0 w-full flex justify-center items-center z-50 md:px-4" style={{ fontFamily: 'Outfit, sans-serif' }}>
+        <div className=" fixed md:top-6 pt-5 md:pt-0 left-0 w-full flex justify-center items-center z-50 md:px-4" style={{ fontFamily: 'Outfit, sans-serif' }}>
             <div className="w-full md:max-w-5xl md:mx-auto bg-white/1 p-2 md:p-4 rounded-2xl md:border border-white/20 backdrop-blur-md flex justify-between items-center shadow-2xl transition-all duration-300 md:hover:bg-white/[0.15]">
                 <h1 className="select-none leading-none">
                     <Link to="/" className="flex items-center gap-2 text-3xl font-extrabold tracking-tight hover:opacity-90 transition-opacity duration-300 pb-1">

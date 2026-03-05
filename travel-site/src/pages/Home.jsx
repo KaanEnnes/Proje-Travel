@@ -29,7 +29,7 @@ function Home() {
           <Hero />
         </div>
 
-        <div className="relative z-10 -mt-20 pb-0">
+        <div className="relative z-10 mt-70 md:mt-20 pb-0">
           <div className="py-20 px-4 relative z-10">
             <div className="max-w-5xl mx-auto text-center">
               <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6 uppercase tracking-tighter italic">Neden Kaan Truzim?</h2>
