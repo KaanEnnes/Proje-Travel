@@ -16,10 +16,10 @@ export default function About() {
                 <Topbar />
                 <div className="h-full">
                     <h1 className="text-5xl font-bold text-white text-center pt-30">Neden Kaan Turizm?</h1>
-                    <p className="text-white/90 max-w-4xl mx-auto leading-relaxed py-10 italic text-center">"Her yolculuk yeni bir hikaye, her hikaye ise yeni bir dostluktur. Kaan Turizm, butik hizmet anlayışı ve kişiye özel seyahat planlamalarıyla, sıradan turların ötesinde ruhu olan yolculuklar vaat ediyor. Gökyüzünün kristal maviliğinden antik şehirlerin gizemine kadar, dünyayı bizimle yeniden keşfedin."</p>
+                    <p className="text-white/90 max-w-4xl mx-auto leading-relaxed py-10 px-6 italic text-center">"Her yolculuk yeni bir hikaye, her hikaye ise yeni bir dostluktur. Kaan Turizm, butik hizmet anlayışı ve kişiye özel seyahat planlamalarıya, sıradan turların ötesinde ruhu olan yolculuklar vaat ediyor. Gökyüzünün kristal maviliğinden antik şehirlerin gizemine kadar, dünyayı bizimle yeniden keşfedin."</p>
                 </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-screen max-w-7xl mx-auto mt-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-7xl mx-auto px-6 mt-20">
                 <IconCard icon={faEarthAmericas} title="Global Rotalar" description="Dünyanın dört bir yanındaki binlerce destinasyon seçeneği ile hayallerinizdeki tatili bulun." />
                 <IconCard icon={faPlaneDeparture} title="Uzman Rehberler" description="Alanında uzman rehberlerimizle rotalarınızı daha anlamlı ve güvenli bir şekilde keşfedin." />
                 <IconCard icon={faHandshakeAngle} title="Güvenli Ödeme" description="En üst düzey güvenlik standartları ile ödemelerinizi gönül rahatlığıyla gerçekleştirin." />
